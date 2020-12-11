@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Lakshman | Full Stack Developer`,
-    description: `I’m Lakshman, self-taught Full Stack developer, from Bangladesh.`,
+    title: `Lakshman | Front-End Developer`,
+    description: `I’m Lakshman, self-taught Front-End developer, from Bangladesh.`,
     author: `Lakshman`,
-    siteUrl: 'https://lgope.netlify.app/',
+    siteUrl: 'https://lgope.github.io/',
     social: {
       twitter: 'LakshmanGope',
       instagram: 'lakshman_gope',
@@ -70,7 +70,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Lakshman | Full Stack Developer`,
+        name: `Lakshman | Front-End Developer`,
         short_name: `Lakshman`,
         icon: `src/images/icon.png`,
         start_url: `/`,
