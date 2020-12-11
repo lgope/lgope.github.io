@@ -26,44 +26,20 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-e4d5cb3690899297561c.js"
+    "url": "webpack-runtime-c96452ff2371c27439dc.js"
   },
   {
     "url": "framework-d7bb821e37a1afbb27d3.js"
   },
   {
-    "url": "app-de51be248f76f0d2e3b8.js"
+    "url": "app-93f7999a363a3eb11a95.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-36dc033f967ae9fe9cda.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "e97b3196cf7b3ba90508efbd984d361d"
-  },
-  {
-    "url": "google-fonts/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZFgrz_PZw.woff2",
-    "revision": "60789af1c9338ed1a9546722ec54b4f7"
-  },
-  {
-    "url": "google-fonts/s/montserrat/v15/JTUQjIg1_i6t8kCHKm459WxRyS7m.woff2",
-    "revision": "5cad650422a7184467af5a4d17b264c4"
-  },
-  {
-    "url": "google-fonts/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_aZA3gnD_g.woff2",
-    "revision": "85d5ef9db7f2dc6979172a4a3b2c57cb"
-  },
-  {
-    "url": "google-fonts/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2",
-    "revision": "6fb1b5623e528e27c18658fecf5ee0ee"
-  },
-  {
-    "url": "google-fonts/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2",
-    "revision": "39d93cf678c740f9f6b2b1cfde34bee3"
-  },
-  {
-    "url": "google-fonts/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
-    "revision": "bc3aa95dca08f5fee5291e34959c27bc"
+    "revision": "0a1b29093200731054a7acef53a76259"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -71,14 +47,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "a9f9184d782d779d598bfa7745fa3779"
+    "revision": "0b05b0b01d5d56f95b3e29c5542388db"
   },
   {
     "url": "polyfill-6fa317302fc0d4a3bf44.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "706b2d36f6f5156e361e78ed4d8900df"
+    "revision": "0c82f68c42f9d45150f933d5099e4e12"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -102,7 +78,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-de51be248f76f0d2e3b8.js`))) {
+  if (!resources || !(await caches.match(`/app-93f7999a363a3eb11a95.js`))) {
     return await fetch(event.request)
   }
 
