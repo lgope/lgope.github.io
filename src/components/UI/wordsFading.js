@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { animated, useTransition, config } from 'react-spring';
 
 const WORDS = [
-  { id: 0, text: 'self-taught' },
+  { id: 0, text: 'fast-learner' },
   { id: 1, text: 'committed' },
   { id: 2, text: 'passionate' },
 ];

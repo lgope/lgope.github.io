@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Lakshman | Front-End Developer`,
-    description: `I’m Lakshman, self-taught Front-End developer, from Bangladesh.`,
+    title: `Lakshman | Software Engineer`,
+    description: `I’m Lakshman, A Software Engineer, from Bangladesh.`,
     author: `Lakshman`,
     siteUrl: 'https://lgope.github.io/',
     social: {
@@ -9,10 +9,10 @@ module.exports = {
       instagram: 'lakshman_gope',
       linkedin: 'lakshman-gope-ba8847154',
       github: 'lgope',
-      email: 'lakshman.gope2@gmail.com'
+      email: 'lakshman.gope2@gmail.com',
     },
     // name of the image for social website share, should be in static folder
-    imageShare: `share.png`
+    imageShare: `share.png`,
   },
   plugins: [
     {
@@ -20,8 +20,8 @@ module.exports = {
       options: {
         trackingId: 'UA-154878086-1',
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false
-      }
+        head: false,
+      },
     },
     `gatsby-plugin-use-dark-mode`,
     `gatsby-plugin-react-helmet`,
@@ -30,27 +30,41 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`
-      }
+        path: `${__dirname}/src/images`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `content`,
-        path: `${__dirname}/src/content`
-      }
+        path: `${__dirname}/src/content`,
+      },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Montserrat`,
-            variants: [`200`, `400`, `400i`, `600`, `600i`, `700`]
-          }
-        ]
-      }
+          `Montserrat`,
+          `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
+        ],
+        display: 'swap',
+      },
     },
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Montserrat`,
+    //         subsets: [`latin`],
+    //       },
+    //       {
+    //         family: `Montserrat`,
+    //         variants: [`200`, `400`, `400i`, `600`, `600i`, `700`],
+    //       },
+    //     ],
+    //   },
+    // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -61,24 +75,24 @@ module.exports = {
             resolve: 'gatsby-remark-external-links',
             options: {
               target: '_blank',
-              rel: 'noreferrer'
-            }
-          }
-        ]
-      }
+              rel: 'noreferrer',
+            },
+          },
+        ],
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Lakshman | Front-End Developer`,
+        name: `Lakshman | Software Engineer`,
         short_name: `Lakshman`,
         icon: `src/images/icon.png`,
         start_url: `/`,
         background_color: `#212121`,
         theme_color: `#127EB1`,
-        display: `minimal-ui`
-      }
+        display: `minimal-ui`,
+      },
     },
-    `gatsby-plugin-offline`
-  ]
+    `gatsby-plugin-offline`,
+  ],
 };

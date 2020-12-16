@@ -4,9 +4,9 @@ curriculum: ''
 creativeCurriculum: ''
 ---
 
-I am <span>Lakshman</span> , a self-taught <span>Front-End</span> developer , from <span>Bangladesh</span> .
+I am <span>Lakshman</span> , a passionate <span>Software Engineer</span> , from <span>Bangladesh</span> .
 
-A _Front-End_ developer. Who enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide _pixel-perfect_, _smooth performant experiences_.
+A _Software Engineer_. Who enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide _pixel-perfect_, _smooth performant experiences_.
 
 Always striving to apply my programming skills to make applications _perform smoothly_ and more open to the _world_. I want to find solutions to the technically challenging facets of applications. I'm _excited_ to employ the skills as part of a fast-paced, quality-driven team in order to build better experiences on the web.
 

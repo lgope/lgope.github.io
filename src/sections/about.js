@@ -183,7 +183,7 @@ const About = () => {
               solid
               target="_blank"
               rel="noreferrer"
-              href="https://docs.google.com/document/d/1nMUVA808ZHaU5fCaNbMyDXIs-t6UDr4Tapo1nEna8T4/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1SacC6InzWwVes1TZTiXR49eZZGPTIQOt0A57fX9VxY0/edit?usp=sharing"
             >
               <StyledIcon icon={faPaperPlane} />
               Resume
