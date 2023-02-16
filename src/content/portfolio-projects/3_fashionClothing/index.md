@@ -1,6 +1,6 @@
 ---
 title: 'Fashion Clothing'
-live: 'https://lakshman-fashion-clothing.herokuapp.com/'
+live: 'https://fashion-clothing-lgope.netlify.app/'
 source: 'https://github.com/lgope/fashion-clothing'
 stack: 'React.js, SASS, Redux, Node.js, Express.js, Firebase'
 image: 'fashionClothing.png'
