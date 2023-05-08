@@ -1,6 +1,6 @@
 ---
 title: 'Natours'
-live: 'https://lakshman-natours.herokuapp.com/'
+live: 'https://lgope-natours.onrender.com/'
 source: 'https://github.com/lgope/Natours'
 stack: 'Node.js, Express.js, Mongoose, MongoDB Atlas, Stripe, Heroku, Pug, Parcel.js'
 image: 'natours.jpg'

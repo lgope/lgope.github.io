@@ -53,7 +53,7 @@ const Portfolio = () => {
       }
     }
   `);
-console.log('items ', items.edges);
+// console.log('items ', items.edges);
   return (
     <StyledSection id="portfolio">
       <Contained>

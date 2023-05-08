@@ -160,7 +160,7 @@ const Image = styled(Img)`
 
 const PortfolioItem = ({ portfolio }) => {
   const { title, live, source, stack, image } = portfolio.frontmatter;
-  console.log(image);
+  // console.log(image);
   return (
     <Wrapper>
       <Title>{title}</Title>
