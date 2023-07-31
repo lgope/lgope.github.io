@@ -17,6 +17,19 @@
     padding: 30px 0 10px;
 }
 
+.education-card .card-body {
+	max-width: 90%;
+	border-radius: 10px;
+	/* border-left: 0.5px solid #c9c9c9; */
+}
+
+.education-card .card-body:hover {
+	background: #fafafa;
+	opacity: 1;
+	/* border-left: 1px solid #c9c9c9; */
+	transition: background-color 0.3s ease-in-out;
+}
+
 .card-container {
 	padding: 30px;
 	padding-bottom: 5px;
