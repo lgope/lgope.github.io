@@ -30,6 +30,10 @@
 	transition: background-color 0.3s ease-in-out;
 }
 
+.education-card .work-info {
+    padding: 20px 10px 0px 30px;
+}
+
 .card-container {
 	padding: 30px;
 	padding-bottom: 5px;

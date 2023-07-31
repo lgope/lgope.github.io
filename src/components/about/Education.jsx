@@ -11,7 +11,7 @@ const Education = () => {
 		title="Education"
 		className="education-card"
 		body={
-			<div className="works-body">
+			<div className="education-details">
 				{React.Children.toArray(
 					educations.map((data) => (
 						<div className="row">
