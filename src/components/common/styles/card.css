@@ -13,8 +13,8 @@
 }
 
 .education-card .card-container {
-	padding: 30px 0px;
-	padding-bottom: 5px;
+	margin: 35px 0px 0px;
+    padding: 30px 0 10px;
 }
 
 .card-container {
