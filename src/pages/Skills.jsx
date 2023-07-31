@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
-import NavBar from "../components/common/navBar";
-import Footer from "../components/common/footer";
-import Logo from "../components/common/logo";
-import Skill from "../components/skills/skill";
+import NavBar from "../components/common/NavBar.jsx";
+import Footer from "../components/common/Footer.jsx";
+import Logo from "../components/common/Logo.jsx";
+import Skill from "../components/skills/Skill.jsx";
 
 
 import INFO from "../data/user";
@@ -42,22 +42,19 @@ const Skills = () => {
 
 					<div className="articles-main-container">
 						<div className="title articles-title">
-							{INFO.articles.title}
+							{INFO.skills.title}
 						</div>
 
-						<div className="subtitle articles-subtitle">
-							{INFO.articles.description}
-						</div>
+						<div className="subtitle articles-subtitle" dangerouslySetInnerHTML={{ __html: INFO.skills.description }} />
 
 						<div className="articles-container">
 							<div className="articles-wrapper">
-								{mySkills.map((skill, index) => (
+								{mySkills.map((skill) => (
 									<div
 										className="articles-article"
-										key={(index + 1).toString()}
+										key={skill.title}
 									>
 										<Skill
-											key={(index + 1).toString()}
 											title={skill.title}
 											data={skill.data}
 										/>

@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faFaceSadTear } from "@fortawesome/free-regular-svg-icons";
 
-import NavBar from "../components/common/navBar";
-import Logo from "../components/common/logo";
+import NavBar from "../components/common/NavBar.jsx";
+import Logo from "../components/common/Logo.jsx";
 
 import INFO from "../data/user";
 

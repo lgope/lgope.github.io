@@ -2,13 +2,13 @@ import { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4";
 
-import Homepage from "./pages/homepage";
-import About from "./pages/about";
-import Projects from "./pages/projects";
-import Articles from "./pages/articles";
+import Homepage from "./pages/Homepage.jsx";
+import About from "./pages/About.jsx";
+import Projects from "./pages/Projects.jsx";
+import Articles from "./pages/Articles.jsx";
 // import ReadArticle from "./pages/readArticle";
-import Skills from "./pages/Skills";
-import Contact from "./pages/contact";
+import Skills from "./pages/Skills.jsx";
+import Contact from "./pages/Contact.jsx";
 import Notfound from "./pages/404";
 
 import { TRACKING_ID } from "./data/tracking";

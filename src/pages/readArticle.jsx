@@ -3,9 +3,9 @@ import { useNavigate, useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import styled from "styled-components";
 
-import NavBar from "../components/common/navBar";
-import Footer from "../components/common/footer";
-import Logo from "../components/common/logo";
+import NavBar from "../components/common/NavBar.jsx";
+import Footer from "../components/common/Footer.jsx";
+import Logo from "../components/common/Logo.jsx";
 
 import INFO from "../data/user";
 import myPublications from "../data/publications";

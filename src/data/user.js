@@ -8,7 +8,8 @@ const INFO = {
 
 	socials: {
 		github: "https://github.com/lgope",
-		google_scholer: "https://scholar.google.com/citations?user=xLlTnLAAAAAJ&hl=en",
+		google_scholer:
+			"https://scholar.google.com/citations?user=xLlTnLAAAAAJ&hl=en",
 		twitter: "https://twitter.com/lakshmangope",
 		linkedin: "https://www.linkedin.com/in/lakshman-gope/",
 		// instagram: "https://instagram.com/",
@@ -18,8 +19,7 @@ const INFO = {
 
 	homepage: {
 		title: "Full-stack Software Engineer and Researcher, and amateur astronaut 🧑🏻‍🚀",
-		description:
-			`I’m <span class="highlight_custom_span">Lakshman</span>. A Software Engineer with a strong passion for <strong>Artificial Intelligence</strong>, <strong>Machine Learning</strong>, and <strong>Data Science</strong>. Seeking admission to a top-tier <span class="highlight_custom_span">Computer Science</span> graduate program. My objective is to actively engage in cutting-edge research, explore novel ideas, develop innovative algorithms,  and contribute to the frontiers of these fields. Through my graduate studies, I aspire to deepen my understanding of advanced algorithms, data analysis techniques, and emerging technologies. I aim to ultimately become a <strong>skilled researcher</strong> capable of making significant contributions to the field of artificial intelligence, data analysis, and extraction of valuable information.`,
+		description: `I’m <span class="highlight_custom_span">Lakshman</span>. A Software Engineer with a strong passion for <strong>Artificial Intelligence</strong>, <strong>Machine Learning</strong>, and <strong>Data Science</strong>. Seeking admission to a top-tier <span class="highlight_custom_span">Computer Science</span> graduate program. My objective is to actively engage in cutting-edge research, explore novel ideas, develop innovative algorithms,  and contribute to the frontiers of these fields. Through my graduate studies, I aspire to deepen my understanding of advanced algorithms, data analysis techniques, and emerging technologies. I aim to ultimately become a <strong>skilled researcher</strong> capable of making significant contributions to the field of artificial intelligence, data analysis, and extraction of valuable information.`,
 		// description:
 		// 	"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
 	},
@@ -30,10 +30,15 @@ const INFO = {
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
 
-	articles: {
+	skills: {
 		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
 		description:
-			"Hello World",
+			`I always want to learn more, do more, and be more. I’m also a firm believer that we should <span class="highlight_custom_span">never settle</span>. I’m hard working, super curious, passionate, committed, and also a fast learner!`,
+	},
+
+	articles: {
+		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		description: "Hello World",
 	},
 
 	projects: [
@@ -64,7 +69,6 @@ const INFO = {
 			link: "https://github.com/lgope/chat-app",
 		},
 
-
 		// {
 		// 	title: "Project 3",
 		// 	description:
@@ -73,7 +77,6 @@ const INFO = {
 		// 	linkText: "View Project",
 		// 	link: "https://github.com",
 		// },
-
 
 		// {
 		// 	title: "Project 5",

@@ -5,6 +5,7 @@
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;
+	border-left: 1px solid #f4f4f5;
 }
 
 .publication-list {

@@ -51,9 +51,9 @@
 .title {
 	color: var(--primary-color);
 	font-family: var(--secondary-font);
-	font-size: 45px;
-	font-weight: 700;
-	width: 70%;
+	font-size: 40px;
+    font-weight: 600;
+    width: 90%;
 }
 
 .subtitle {

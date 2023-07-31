@@ -10,12 +10,12 @@ import {
 	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-import Logo from "../components/common/logo";
-import Footer from "../components/common/footer";
-import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
-import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
+import Logo from "../components/common/Logo.jsx";
+import Footer from "../components/common/Footer.jsx";
+import NavBar from "../components/common/NavBar.jsx";
+import Article from "../components/homepage/Article.jsx";
+import AllProjects from "../components/projects/AllProjects.jsx";
+import Works from "../components/homepage/Works.jsx";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
