@@ -6,6 +6,17 @@
 	outline: 2px solid #f4f4f5;
 }
 
+.education-card {
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	outline: none;
+}
+
+.education-card .card-container {
+	padding: 30px 0px;
+	padding-bottom: 5px;
+}
+
 .card-container {
 	padding: 30px;
 	padding-bottom: 5px;

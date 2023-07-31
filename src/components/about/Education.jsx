@@ -1,41 +1,40 @@
-import React from "react";
-import {
-	faBriefcase,
-	faCalendarDays,
-	faLocationDot,
-} from "@fortawesome/free-solid-svg-icons";
+import React from 'react';
+import Card from '../common/Card';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCalendarDays, faLocationDot, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import educations from '../../data/education';
 
-import Card from "../common/Card.jsx";
-
-import "./styles/works.css";
-import employmentData from "../../data/employment";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-const Works = () => (
-	<Card
-		icon={faBriefcase}
-		title="Work"
+const Education = () => {
+    return (
+        <Card
+		icon={faGraduationCap}
+		title="Education"
+		className="education-card"
 		body={
 			<div className="works-body">
 				{React.Children.toArray(
-					employmentData.map((data) => (
+					educations.map((data) => (
 						<div className="row">
 							<div className="column">
 								<div className="company-logo">
 									<img
-										src={data.company_icon}
-										alt={data.company_name}
+										src={data.university_icon}
+										alt={data.university_name}
 										className="work-image"
 									/>
 								</div>
 
 								<div className="company-info">
 									<div className="work-title">
-										{data.company_name}
+										{data.university_name}
 									</div>
 
 									<div className="work-subtitle">
-										{data.work_position}
+										{data.study_subject}
+									</div>
+
+									<div className="work-subtitle">
+										{data.result}
 									</div>
 								</div>
 							</div>
@@ -50,7 +49,7 @@ const Works = () => (
 										}}
 										icon={faLocationDot}
 									/>
-									{data.company_location}
+									{data.university_location}
 								</div>
 
 								<div className="work-duration">
@@ -62,7 +61,7 @@ const Works = () => (
 										}}
 										icon={faCalendarDays}
 									/>
-									{data.work_duration}
+									{data.study_duration}
 								</div>
 							</div>
 						</div>
@@ -71,6 +70,7 @@ const Works = () => (
 			</div>
 		}
 	/>
-);
+    );
+};
 
-export default Works;
+export default Education;

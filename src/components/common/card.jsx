@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./styles/card.css";
 
 const Card = (props) => {
-	const { icon, title, body } = props;
+	const { icon, title, body, className='' } = props;
 	return (
-		<div className="card">
+		<div className={`card ${className}`}>
 			<div className="card-container">
 				<div className="card-header">
 					<div className="card-icon">

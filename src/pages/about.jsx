@@ -10,6 +10,11 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
+import Education from "../components/about/Education.jsx";
+import Button from "../components/common/Button.jsx";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
 	useEffect(() => {
@@ -47,6 +52,29 @@ const About = () => {
 
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
+								</div>
+
+								<div className="about-education">
+									<Education />
+								</div>
+
+								<div className="about-resume">
+									<p>To know me more 👉🏻</p>
+									<Button
+										href={
+											"https://github.com/lgope/JavaScript/files/12213524/lgope_resume.pdf"
+										}
+									>
+										🌈 Download CV &nbsp;
+										<FontAwesomeIcon
+											style={{
+												fontSize: "12px",
+												// color: "8F0D0D",
+												paddingRight: "9px",
+											}}
+											icon={faDownload}
+										/>
+									</Button>
 								</div>
 							</div>
 

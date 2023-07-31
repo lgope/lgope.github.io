@@ -27,7 +27,7 @@ const INFO = {
 	about: {
 		title: "I live in Bangladesh, where I design the future.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"A Software Engineer with more than two (02) years of experience. I have a strong belief in the proverb that “Man lives forever in his work”. I always want to be alive in the heart of people through my work. Having career goals to become a flourishing researcher and academician, I aspire to pursue my master's in Computer Science and my research interest lies in the multidisciplinary domains of Artificial Intelligence, Machine Learning, Deep Learning, Data Mining, and Data Science.",
 	},
 
 	skills: {
@@ -37,8 +37,9 @@ const INFO = {
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description: "Hello World",
+		// title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Continuous progress is the key to life. And for progress, knowledge and proper guidance are the essentials.",
+		description: "I’ve always been inclined towards practical tasks and the everlasting quest to learn more. “Knowledge is power”, says Bacon. “A wise man is strong and a man of knowledge increaseth strength”. Knowledge is all-powerful and love of knowledge is a pre-requisite for any success in life.",
 	},
 
 	projects: [

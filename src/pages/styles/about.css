@@ -13,6 +13,18 @@
 	top: 4vh;
 }
 
+.about-resume {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.about-resume .custom_button {
+	margin-left: 20px;
+}
+
 .about-container {
 	display: flex;
 	flex-direction: column;
