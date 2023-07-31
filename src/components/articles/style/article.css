@@ -48,6 +48,7 @@
 	color: var(--secondary-color);
 	font-weight: 480;
 	line-height: 25px;
+	text-align: justify;
 }
 
 .article-link {
