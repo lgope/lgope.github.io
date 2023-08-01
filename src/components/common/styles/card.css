@@ -20,13 +20,22 @@
 .education-card .card-body {
 	max-width: 90%;
 	border-radius: 10px;
-	/* border-left: 0.5px solid #c9c9c9; */
 }
 
-.education-card .card-body:hover {
+.training-courses-section .card-container {
+	margin: 20px 0px 0px;
+	padding: 5px 0 10px;
+}
+
+.education-card .row {
+	border-radius: 10px;
+	opacity: 0.8;
+	border-left: 0.5px solid #f4f4f5;
+}
+
+.education-card .row:hover {
 	background: #fafafa;
 	opacity: 1;
-	/* border-left: 1px solid #c9c9c9; */
 	transition: background-color 0.3s ease-in-out;
 }
 
