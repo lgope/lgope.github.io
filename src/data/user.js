@@ -10,8 +10,8 @@ const INFO = {
 		github: "https://github.com/lgope",
 		google_scholer:
 			"https://scholar.google.com/citations?user=xLlTnLAAAAAJ&hl=en",
-		twitter: "https://twitter.com/lakshmangope",
-		linkedin: "https://www.linkedin.com/in/lakshman-gope/",
+		twitter: "https://twitter.com/lgopeofficial",
+		linkedin: "https://www.linkedin.com/in/lgope/",
 		// instagram: "https://instagram.com/",
 		// stackoverflow: "https://stackoverflow.com/",
 		// facebook: "https://facebook.com/",
