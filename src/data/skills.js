@@ -5,21 +5,21 @@ const spirited = {
 		"Data Science",
 		"Artificial Intelligence",
 		"Cyber Intelligence",
-		"Web Development"
+		"Web Development",
 	],
 };
 
 const learning = {
 	title: "Learning 📝",
 	data: [
+		"Software Architecture",
+		"Antipatterns in Software Engineering",
+		"React Design Patterns",
+		"React Optimizing Performance",
 		"NumPy",
-		"Pandas",
-		"Matplotlib",
 		"Scikit-learn",
 		"TensorFlow",
 		"Plotly",
-		"Seaborn",
-		"OpenCV",
 	],
 };
 

@@ -44,20 +44,12 @@ const INFO = {
 	},
 
 	projects: [
-		{
-			title: "Book Recommender System",
-			description:
-				"Book recommender system a Collaborative Filtering Based Recommender System using Machine Learning, Numpy, Pandas, Python, Flask and Kaggle Dataset.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com/lgope/book-recommender-system",
-		},
-
+		
 		{
 			title: "Natours",
 			description:
 				"An awesome tour booking web app written in NodeJS, Express, MongoDB 🗽",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com/lgope/Natours",
 		},
@@ -70,20 +62,28 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/lgope/the-wild-oasis",
 		},
-
+		
 		{
 			title: "Fashion Clothing",
 			description:
-				"Full Stack E-Commerce App built with React, using Firebase and Stripe API.",
+			"Full Stack E-Commerce App built with React, using Firebase and Stripe API.",
 			logo: "https://miro.medium.com/v2/resize:fit:800/0*CBjisl422hUyLxiG.png",
 			linkText: "View Project",
 			link: "https://github.com/lgope/fashion-clothing",
 		},
-
 		{
-			title: "Project 5",
+			title: "Book Recommender System",
 			description:
-				"MERN Full Stack AI Image Generation App using DALL-E Open AI API. (On going 🏗️)",
+				"Book recommender system a Collaborative Filtering Based Recommender System using Machine Learning, Numpy, Pandas, Python, Flask and Kaggle Dataset.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Project",
+			link: "https://github.com/lgope/book-recommender-system",
+		},
+		
+		{
+			title: "DALL-E Image",
+			description:
+			"MERN Full Stack AI Image Generation App using DALL-E Open AI API. (On going 🏗️)",
 			logo: "https://avatars.githubusercontent.com/u/6412038?s=280&v=4",
 			linkText: "View Project",
 			link: "https://github.com/lgope/dall-e-image",

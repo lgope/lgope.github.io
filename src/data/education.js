@@ -15,7 +15,7 @@ export const trainingAndCourses = [
 		institution_logo: "./udemy.jpg",
 		institution_location: "Online",
 		study_subject: "Complete Machine Learning & Data Science Bootcamp 2023",
-		study_duration: "July 2024 – Ongoing",
+		study_duration: "July 2023 – Ongoing",
 		show_credential:
 			"https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/",
 	},
@@ -24,7 +24,7 @@ export const trainingAndCourses = [
 		institution_logo: "./udemy.jpg",
 		institution_location: "Online",
 		study_subject: "The Ultimate React Course 2024: React, Redux & More",
-		study_duration: "Jan 2024 – Ongoing",
+		study_duration: "Jan 2023 – Ongoing",
 		show_credential:
 			"https://www.udemy.com/course/the-ultimate-react-course/",
 	},

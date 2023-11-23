@@ -62,7 +62,7 @@ const About = () => {
 									<p>To know me more 👉🏻</p>
 									<Button
 										href={
-											"https://github.com/lgope/lgope.github.io/files/13234661/lgopeResume.pdf"
+											"https://github.com/lgope/lgope.github.io/files/13447086/lakshman_gope_resume.pdf"
 										}
 									>
 										🌈 Download CV &nbsp;
