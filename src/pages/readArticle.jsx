@@ -7,8 +7,8 @@ import NavBar from "../components/common/NavBar.jsx";
 import Footer from "../components/common/Footer.jsx";
 import Logo from "../components/common/Logo.jsx";
 
-import INFO from "../data/user";
-import myPublications from "../data/publications";
+import INFO from "../data/user.js";
+import myPublications from "../data/publications.js";
 
 import "./styles/readArticle.css";
 

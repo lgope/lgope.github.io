@@ -4,8 +4,8 @@ const spirited = {
 		"Machine Learning",
 		"Data Science",
 		"Artificial Intelligence",
-		"Big Data",
 		"Cyber Intelligence",
+		"Web Development"
 	],
 };
 
@@ -25,12 +25,12 @@ const learning = {
 
 const basicProgramming = {
 	title: "Basic Programming 👨🏻‍💻",
-	data: ["C", "C++", "Javascript", "Python"],
+	data: ["C", "C++", "Javascript", "Typescript", "Python"],
 };
 
 const webProgramming = {
 	title: "Web Programming 🌎",
-	data: ["PHP", "Reat", "Vue.js", "Node.js", "Express.js"],
+	data: ["PHP", "Reat.js", "Next.js", "Vue.js", "Node.js", "Express.js"],
 };
 
 const databaseProgramming = {
@@ -39,8 +39,8 @@ const databaseProgramming = {
 };
 
 const othersProgramming = {
-	title: "Others Programming 💻",
-	data: ["LaTeX"],
+	title: "Others 💻",
+	data: ["LaTeX", "WordPress", "GitHub", "Jira"],
 };
 
 const mySkills = [

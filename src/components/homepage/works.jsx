@@ -8,7 +8,7 @@ import {
 import Card from "../common/Card.jsx";
 
 import "./styles/works.css";
-import employmentData from "../../data/employment";
+import employmentData from "../../data/employment.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Works = () => (

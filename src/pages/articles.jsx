@@ -6,9 +6,9 @@ import Footer from "../components/common/Footer.jsx";
 import Logo from "../components/common/Logo.jsx";
 import Article from "../components/articles/Article.jsx";
 
-import INFO from "../data/user";
-import SEO from "../data/seo";
-import myPublications from "../data/publications";
+import INFO from "../data/user.js";
+import SEO from "../data/seo.js";
+import myPublications from "../data/publications.js";
 
 import "./styles/articles.css";
 

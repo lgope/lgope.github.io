@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
-
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faMailBulk, faCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faGithub,
@@ -17,9 +16,9 @@ import Article from "../components/homepage/Article.jsx";
 import AllProjects from "../components/projects/AllProjects.jsx";
 import Works from "../components/homepage/Works.jsx";
 
-import INFO from "../data/user";
-import SEO from "../data/seo";
-import myPublications from "../data/publications";
+import INFO from "../data/user.js";
+import SEO from "../data/seo.js";
+import myPublications from "../data/publications.js";
 
 import "./styles/homepage.css";
 
@@ -124,6 +123,7 @@ const Homepage = () => {
 								href={INFO.socials.github}
 								target="_blank"
 								rel="noreferrer"
+								title="GitHub"
 							>
 								<FontAwesomeIcon
 									icon={faGithub}
@@ -132,9 +132,22 @@ const Homepage = () => {
 							</a>
 
 							<a
-								href={INFO.socials.google_scholer}
+								href={INFO.socials.leetcode}
 								target="_blank"
 								rel="noreferrer"
+								title="LeetCode"
+							>
+								<FontAwesomeIcon
+									icon={faCode}
+									className="homepage-social-icon"
+								/>
+							</a>
+
+							<a
+								href={INFO.socials.google_scholar}
+								target="_blank"
+								rel="noreferrer"
+								title="Google Scholar"
 							>
 								<FontAwesomeIcon
 									icon={faGoogle}
@@ -146,6 +159,7 @@ const Homepage = () => {
 								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
+								title="LinkedIn"
 							>
 								<FontAwesomeIcon
 									icon={faLinkedin}
@@ -157,6 +171,7 @@ const Homepage = () => {
 								href={INFO.socials.twitter}
 								target="_blank"
 								rel="noreferrer"
+								title="Twitter"
 							>
 								<FontAwesomeIcon
 									icon={faTwitter}
@@ -168,6 +183,7 @@ const Homepage = () => {
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
 								rel="noreferrer"
+								title="Email"
 							>
 								<FontAwesomeIcon
 									icon={faMailBulk}

@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faCode } from "@fortawesome/free-solid-svg-icons";
 import {
 	faTwitter,
 	faGithub,
@@ -16,7 +16,12 @@ const Socials = () => {
 	return (
 		<div className="socials">
 			<div className="social">
-				<a href={INFO.socials.github} target="_blank" rel="noreferrer">
+				<a
+					href={INFO.socials.github}
+					target="_blank"
+					rel="noreferrer"
+					title="GitHub"
+				>
 					<div className="social-icon">
 						<FontAwesomeIcon
 							icon={faGithub}
@@ -28,7 +33,29 @@ const Socials = () => {
 			</div>
 
 			<div className="social">
-				<a href={INFO.socials.google_scholer} target="_blank" rel="noreferrer">
+				<a
+					href={INFO.socials.leetcode}
+					target="_blank"
+					rel="noreferrer"
+					title="LeetCode"
+				>
+					<div className="social-icon">
+						<FontAwesomeIcon
+							icon={faCode}
+							className="social-icon"
+						/>
+					</div>
+					<div className="social-text">LeetCode</div>
+				</a>
+			</div>
+
+			<div className="social">
+				<a
+					href={INFO.socials.google_scholar}
+					target="_blank"
+					rel="noreferrer"
+					title="Google Scholar"
+				>
 					<div className="social-icon">
 						<FontAwesomeIcon
 							icon={faGoogle}
@@ -40,7 +67,12 @@ const Socials = () => {
 			</div>
 
 			<div className="social">
-				<a href={INFO.socials.twitter} target="_blank" rel="noreferrer">
+				<a
+					href={INFO.socials.twitter}
+					target="_blank"
+					rel="noreferrer"
+					title="Twitter"
+				>
 					<div className="social-icon">
 						<FontAwesomeIcon
 							icon={faTwitter}
@@ -56,6 +88,7 @@ const Socials = () => {
 					href={INFO.socials.linkedin}
 					target="_blank"
 					rel="noreferrer"
+					title="LinkedIn"
 				>
 					<div className="social-icon">
 						<FontAwesomeIcon
@@ -89,6 +122,7 @@ const Socials = () => {
 						href={`mailto:${INFO.main.email}`}
 						target="_blank"
 						rel="noreferrer"
+						title="Email"
 					>
 						<div className="social-icon">
 							<FontAwesomeIcon icon={faEnvelope} />
